@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        body
+        {
+            padding-top: 200px;
+            padding-left: 350px;
+        }
+        div
+        {
+            background-color: black;
+            padding: 10px;
+            width: 350px;
+            height: 100px;
+            text-align: center;
+            padding-left: 350px;
+            padding-top: 350px;
+            border-radius:0%;
+
+            animation-name: test;
+            animation-duration:10s;
+            animation-timing-function: linear;
+            animation-delay: 0s;
+            animation-iteration-count: infinite;
+         }
+         @keyframes test 
+         {
+            0%
+            {
+                background-color: red;
+                width: 200px;
+                height: 100px;
+            }
+            50%
+            {
+                background-color: green;
+                border-radius: 60px;
+            }
+            100%
+            {
+                background-color: blue;
+                transform: translateX(300px);
+                border-radius: 30px;
+            }
+         }
+    </style>
+</head>
+<body>
+    <div>
+            
+    </div>
+</body>
+</html>
